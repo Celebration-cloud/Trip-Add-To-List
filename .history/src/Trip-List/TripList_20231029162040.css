@@ -1,0 +1,18 @@
+/* backgroundColor: "aqua",
+            color: "brown",
+            bottom: "0%",
+            height: "30px",
+            width: "100%", */
+.static{
+    
+}
+@media (max-width: 480px) {
+    
+}
+.static{
+    background-color: aqua;
+    color: brown;
+    bottom: 0%;
+    height: 30px;
+    width: 100%;
+}

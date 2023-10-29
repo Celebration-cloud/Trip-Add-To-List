@@ -1,0 +1,30 @@
+/* backgroundColor: "aqua",
+            color: "brown",
+            bottom: "0%",
+            height: "30px",
+            width: "100%", */
+.static{
+    position: absolute;
+    background-color: aqua;
+    color: brown;
+    bottom: -0%;
+    width: 100%;
+}
+.title{
+    font-family: inherit;
+    font-size: 200px;
+}
+@media (max-width: 480px) {
+    .static{
+    background-color: aqua;
+    color: brown;
+    bottom: 0%;
+    height: 70px;
+    width: 100%;
+}
+.title{
+    font-family: inherit;
+    font-size: large;
+}
+}
+
