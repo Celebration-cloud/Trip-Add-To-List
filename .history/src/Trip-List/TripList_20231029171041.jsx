@@ -94,8 +94,8 @@ function TripListForm({addItem, remove, check}) {
   return (
     <>
       <h3>LIST</h3>
-      <ul style={{ listStyleType: "none" }}>
-        <li style={{display: 'flex', flexWrap: "wrap"}}>
+      <ul style={{display: 'flex', flexWrap: "wrap", listStyleType: "none" }}>
+        <li>
           {sorting?.map((item) => (
             <>
               <input

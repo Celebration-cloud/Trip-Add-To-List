@@ -4,11 +4,10 @@
             height: "30px",
             width: "100%", */
 .static{
-    position: fixed;
+    position: absolute;
     background-color: aqua;
     color: brown;
-    height: 50px;
-    bottom: 0px;
+    bottom: -0%;
     width: 100%;
 }
 .title{
@@ -16,11 +15,11 @@
     font-size: 20px;
 }
 @media (max-width: 480px) {
-    .static{
-    position: relative;
+    .static{\
     background-color: aqua;
     color: brown;
-    bottom: -200px;
+    bottom: 0%;
+    height: 70px;
     width: 100%;
 }
 .title{

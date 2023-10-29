@@ -5,6 +5,7 @@
             width: "100%", */
 .static{
     position: fixed;
+    place-self: ;
     background-color: aqua;
     color: brown;
     height: 50px;

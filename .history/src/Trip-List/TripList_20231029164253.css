@@ -4,10 +4,9 @@
             height: "30px",
             width: "100%", */
 .static{
-    position: fixed;
+    position: absolute;
     background-color: aqua;
     color: brown;
-    height: 50px;
     bottom: 0px;
     width: 100%;
 }
@@ -15,12 +14,13 @@
     font-family: inherit;
     font-size: 20px;
 }
-@media (max-width: 480px) {
+@media (max-width: 0px) {
     .static{
     position: relative;
     background-color: aqua;
     color: brown;
-    bottom: -200px;
+    bottom: 0%;
+    height: 70px;
     width: 100%;
 }
 .title{

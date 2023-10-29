@@ -4,7 +4,7 @@
             height: "30px",
             width: "100%", */
 .static{
-    position: fixed;
+    position: fixed ;
     background-color: aqua;
     color: brown;
     height: 50px;

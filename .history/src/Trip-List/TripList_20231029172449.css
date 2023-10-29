@@ -4,10 +4,10 @@
             height: "30px",
             width: "100%", */
 .static{
-    position: fixed;
+    position: sticky;
+    -moz-posi
     background-color: aqua;
     color: brown;
-    height: 50px;
     bottom: 0px;
     width: 100%;
 }
